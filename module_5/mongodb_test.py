@@ -12,5 +12,4 @@ db = client.pytech
 print ("--Pytech C0llection List--")
 print(db.list_collection_names())
 
-exit
-
+input("\n\n  End of program, press any key to continue...")
