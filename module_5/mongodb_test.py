@@ -10,7 +10,7 @@ client = MongoClient(url)
 db = client.pytech 
 
 print ("--Pytech C0llection List--")
-print(db.list_collection_names(session=None, filter=None ))
+print(db.list_collection_names())
 
 exit
 
